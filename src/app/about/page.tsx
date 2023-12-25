@@ -6,7 +6,7 @@ export default function AboutPage() {
     return (
         <>
             <Header />
-            <main>
+            <main className="flex flex-col min-h-screen">
                 <div className="mt-10 flex flex-col items-center gap-10 text-center">
                     <h1
                         className={`text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl ${fontHeading.variable}`}
